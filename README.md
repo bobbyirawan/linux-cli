@@ -8,6 +8,7 @@
 - delete directory        : rm -d DIRECTORY-NAME
 
 ### ENV
+![This is an image](/assets/env/create.svg)
 - create env : NAME_ENV=value-env -> export NAME_ENV
 - change env : NAME_ENV=value-env -> export NAME_ENV -> NAME_ENV=update
 - create readonly env : readonly NAME_ENV=value-env -> export NAME_ENV
