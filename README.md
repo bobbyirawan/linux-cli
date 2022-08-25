@@ -1,7 +1,7 @@
 # linux-cli
 
 ### FILE 
-**capital letters is variables
+*capital letters is variables*
 - move file to directory  : mv FILENAME ./dir
 - change file name        : mv FILENAME(old) FILENAME(new)
 - delete file             : rm FILENAME
