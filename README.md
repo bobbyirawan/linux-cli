@@ -1,5 +1,9 @@
 # linux-cli
 
+### SEACRH FILE
+1. find   :
+2. locate :   
+
 ### FILE 
 *capital letters is variables*
 1. move file to directory  : mv FILENAME TUJUAN-DIRECTORY
