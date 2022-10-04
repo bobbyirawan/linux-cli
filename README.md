@@ -27,7 +27,7 @@
 4. menampilkan isi folder tertentu : l NAMAFILE / ls NAMAFILE?.txt
 
 ### systemctl
-#### list
+#### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
 ```
 systemctl list-units --type=service
 ```
