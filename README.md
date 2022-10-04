@@ -2,6 +2,7 @@
 
 ## List of Content
   - [systemctl](#systemctl)
+  - [check currently installed programs](#currently-installed-programs)
 
 ### SEACRH FILE
 1. find   :
@@ -34,6 +35,11 @@ systemctl list-units --type=service
 or
 ```
 systemctl --type=service
+```
+
+### currently installed programs
+```
+dpkg --list
 ```
 
 ### ENV
