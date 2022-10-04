@@ -3,6 +3,7 @@
 ## List of Content
   - [systemctl](#systemctl)
   - [check currently installed programs](#currently-installed-programs)
+  - [uninstall program installed ubuntu](#uninstall-program-installed-ubuntu)
 
 ### SEACRH FILE
 1. find   :
@@ -40,6 +41,11 @@ systemctl --type=service
 ### currently installed programs
 ```
 dpkg --list
+```
+
+### uninstall program installed ubuntu
+```
+sudo apt-get --purge remove program
 ```
 
 ### ENV
