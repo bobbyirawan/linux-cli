@@ -1,5 +1,8 @@
 # linux-cli
 
+## List of Content
+  - [systemctl](#systemctl)
+
 ### SEACRH FILE
 1. find   :
 2. locate :   
@@ -23,6 +26,15 @@
 3. menampilkan isi folder : ls
 4. menampilkan isi folder tertentu : l NAMAFILE / ls NAMAFILE?.txt
 
+### systemctl
+#### list
+```
+systemctl list-units --type=service
+```
+or
+```
+systemctl --type=service
+```
 
 ### ENV
 - create env : NAME_ENV=value-env -> export NAME_ENV 
