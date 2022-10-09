@@ -4,12 +4,16 @@
   - [systemctl](#systemctl)
   - [check currently installed programs](#currently-installed-programs)
   - [uninstall program installed ubuntu](#uninstall-program-installed-ubuntu)
+  - [Directory](#directory)
+  - [File](#file)
+  - [Search File](#search-file)
+  - [ssh-keygen](#ssh-keygen)
 
-### SEACRH FILE
+### Search File
 1. find   :
 2. locate :   
 
-### FILE 
+### File 
 *capital letters is variables*
 1. move file to directory  : mv FILENAME TUJUAN-DIRECTORY
 2. COPY file               : cp FILENAME TUJUAN-DIRECTORY
@@ -20,13 +24,20 @@
 7. delete all file         : rm *
 8. delete all file. tapi, akan dimintai izin dulu apakah file itu akan di hapus : rm -i *
 
-### DIRECTORY
+### Directory
 *-d : directory*
 *-r : recursive*
 1. delete directory kosong : rm -d DIRECTORY-NAME 
-2. hapus folder beserta isinya : rm -r DIRECTORY-NAME
+2. hapus folder beserta isinya : rm -rf DIRECTORY-NAME
 3. menampilkan isi folder : ls
 4. menampilkan isi folder tertentu : l NAMAFILE / ls NAMAFILE?.txt
+5. copy : cp -r [DIRECTORY-NAME] [DIRECTORY-TUJUAN]
+
+### ssh-keygen
+| **TYPE** | **SYNTAX** |
+| --- | --- |
+| rsa | ssh-keygen -t rsa -c "[EMAIL-NAME]" |
+| ed25519 | ssh-keygen -t ed25519 -c "[EMAIL-NAME]" |
 
 ### systemctl
 #### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
