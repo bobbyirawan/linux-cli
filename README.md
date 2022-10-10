@@ -38,6 +38,8 @@
 | --- | --- |
 | rsa | ssh-keygen -t rsa -C "[EMAIL-NAME]" |
 | ed25519 | ssh-keygen -t ed25519 -C "[EMAIL-NAME]" |
+| known_hosts | ssh-keyscan [DOMAIN-NAME] >> ~/.ssh/known_hosts |
+
 
 ### systemctl
 #### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
