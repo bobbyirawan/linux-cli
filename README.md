@@ -36,8 +36,8 @@
 ### ssh-keygen
 | **TYPE** | **SYNTAX** |
 | --- | --- |
-| rsa | ssh-keygen -t rsa -c "[EMAIL-NAME]" |
-| ed25519 | ssh-keygen -t ed25519 -c "[EMAIL-NAME]" |
+| rsa | ssh-keygen -t rsa -C "[EMAIL-NAME]" |
+| ed25519 | ssh-keygen -t ed25519 -C "[EMAIL-NAME]" |
 
 ### systemctl
 #### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
