@@ -1,7 +1,7 @@
 # linux-cli
 
 ## List of Content
-  - [systemctl](#systemctl)
+  - [systemctl/systemd](#systemctl)
   - [check currently installed programs](#currently-installed-programs)
   - [uninstall program installed ubuntu](#uninstall-program-installed-ubuntu)
   - [Directory](#directory)
@@ -42,6 +42,24 @@
 
 
 ### systemctl
+example :
+```
+[Unit]
+Description=userapp
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+EnvironmentFile=/home/bobby.irawan/app/src/userapp/.env
+ExecStart=/home/bobby.irawan/app/src/userapp/userapp
+
+[Install]
+WantedBy=multi-user.target
+```
+
+reference : https://www.youtube.com/watch?v=N1vgvhiyq0E&t=674s
+
 #### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
 ```
 systemctl list-units --type=service
