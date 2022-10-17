@@ -65,6 +65,7 @@ reference :
 4. https://ma.ttias.be/auto-restart-crashed-service-systemd/
 5. https://marik-marek.medium.com/systemd-service-error-handling-and-automatic-restarting-a07726717191
 6. https://serverfault.com/questions/730239/start-n-processes-with-one-systemd-service-file
+7. https://www.jenkins.io/doc/book/system-administration/systemd-services/
 
 
 #### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
