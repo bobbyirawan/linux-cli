@@ -58,7 +58,10 @@ ExecStart=/home/bobby.irawan/app/src/userapp/userapp
 WantedBy=multi-user.target
 ```
 
-reference : https://www.youtube.com/watch?v=N1vgvhiyq0E&t=674s
+reference :
+1. https://www.youtube.com/watch?v=N1vgvhiyq0E&t=674s
+2. https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal
+
 
 #### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
 ```
