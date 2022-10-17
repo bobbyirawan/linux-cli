@@ -61,6 +61,10 @@ WantedBy=multi-user.target
 reference :
 1. https://www.youtube.com/watch?v=N1vgvhiyq0E&t=674s
 2. https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal
+3. https://wiki.archlinux.org/title/systemd#Using_units
+4. https://ma.ttias.be/auto-restart-crashed-service-systemd/
+5. https://marik-marek.medium.com/systemd-service-error-handling-and-automatic-restarting-a07726717191
+6. https://serverfault.com/questions/730239/start-n-processes-with-one-systemd-service-file
 
 
 #### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
