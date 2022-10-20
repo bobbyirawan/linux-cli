@@ -8,6 +8,7 @@
   - [File](#file)
   - [Search File](#search-file)
   - [ssh-keygen](#ssh-keygen)
+  - [sh file](#sh-file)
 
 ### Search File
 1. find   :
@@ -66,6 +67,7 @@ reference :
 5. https://marik-marek.medium.com/systemd-service-error-handling-and-automatic-restarting-a07726717191
 6. https://serverfault.com/questions/730239/start-n-processes-with-one-systemd-service-file
 7. https://www.jenkins.io/doc/book/system-administration/systemd-services/
+8. https://www.suse.com/support/kb/doc/?id=000019672
 
 
 #### list [reference](https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/)
@@ -93,3 +95,8 @@ sudo apt-get --purge remove program
 - change env : NAME_ENV=value-env -> export NAME_ENV -> NAME_ENV=update
 - create readonly env : readonly NAME_ENV=value-env -> export NAME_ENV
 - check env : echo "$ENV-NAME"
+
+### sh file
+reference : 
+  - https://www.cyberciti.biz/faq/run-execute-sh-shell-script/
+  - 
